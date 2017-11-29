@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "git@gitlab.hugjs.com:peterzhou/ms-gateway-proxy.git",
   "author": "peterzhou84 <zjzhoufy@126.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@log4js-node/log4js-api": "^1.0.0",
+    "config": "^1.28.1",
+    "koa": "^2.4.1",
+    "koa-better-http-proxy": "^0.2.4",
+    "lodash": "^4.17.4",
+    "log4js": "^2.3.12"
+  }
 }

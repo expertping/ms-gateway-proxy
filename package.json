@@ -1,0 +1,9 @@
+{
+  "name": "ms-gateway-proxy",
+  "version": "0.0.1",
+  "description": "Microservice proxy service which is used to proxy all the request to the destination service node.",
+  "main": "index.js",
+  "repository": "git@gitlab.hugjs.com:peterzhou/ms-gateway-proxy.git",
+  "author": "peterzhou84 <zjzhoufy@126.com>",
+  "license": "MIT"
+}

@@ -25,8 +25,8 @@ agent-base@2:
     semver "~5.0.1"
 
 ajv@^5.1.0:
-  version "5.5.0"
-  resolved "http://sinopia.hugjs.com/ajv/-/ajv-5.5.0.tgz#eb2840746e9dc48bd5e063a36e3fd400c5eab5a9"
+  version "5.5.1"
+  resolved "http://sinopia.hugjs.com/ajv/-/ajv-5.5.1.tgz#b38bb8876d9e86bee994956a04e721e88b248eb2"
   dependencies:
     co "^4.6.0"
     fast-deep-equal "^1.0.0"
@@ -45,6 +45,12 @@ any-promise@^1.1.0:
   version "1.3.0"
   resolved "http://sinopia.hugjs.com/any-promise/-/any-promise-1.3.0.tgz#abc6afeedcea52e809cdc0376aed3ce39635d17f"
 
+argparse@^1.0.7:
+  version "1.0.9"
+  resolved "http://sinopia.hugjs.com/argparse/-/argparse-1.0.9.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
+  dependencies:
+    sprintf-js "~1.0.2"
+
 asn1@~0.2.3:
   version "0.2.3"
   resolved "http://sinopia.hugjs.com/asn1/-/asn1-0.2.3.tgz#dac8787713c9966849fc8180777ebe9c1ddf3b86"
@@ -60,6 +66,10 @@ assert-plus@^0.2.0:
 ast-types@0.x.x:
   version "0.10.1"
   resolved "http://sinopia.hugjs.com/ast-types/-/ast-types-0.10.1.tgz#f52fca9715579a14f841d67d7f8d25432ab6a3dd"
+
+async-limiter@~1.0.0:
+  version "1.0.0"
+  resolved "http://sinopia.hugjs.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
 
 async@~1.0.0:
   version "1.0.0"
@@ -122,6 +132,10 @@ boom@5.x.x:
   resolved "http://sinopia.hugjs.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
     hoek "4.x.x"
+
+browser-fingerprint@0.0.1:
+  version "0.0.1"
+  resolved "http://sinopia.hugjs.com/browser-fingerprint/-/browser-fingerprint-0.0.1.tgz#8df3cdca25bf7d5b3542d61545d730053fce604a"
 
 buildmail@4.0.1:
   version "4.0.1"
@@ -201,6 +215,10 @@ cookies@~0.7.0:
     depd "~1.1.1"
     keygrip "~1.0.2"
 
+core-js@^1.1.1:
+  version "1.2.7"
+  resolved "http://sinopia.hugjs.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
+
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "http://sinopia.hugjs.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -216,6 +234,14 @@ cryptiles@3.x.x:
   resolved "http://sinopia.hugjs.com/cryptiles/-/cryptiles-3.1.2.tgz#a89fbb220f5ce25ec56e8c4aa8a4fd7b5b0d29fe"
   dependencies:
     boom "5.x.x"
+
+cuid@^1.3.8:
+  version "1.3.8"
+  resolved "http://sinopia.hugjs.com/cuid/-/cuid-1.3.8.tgz#4b875e0969bad764f7ec0706cf44f5fb0831f6b7"
+  dependencies:
+    browser-fingerprint "0.0.1"
+    core-js "^1.1.1"
+    node-fingerprint "0.0.2"
 
 cycle@1.0.x:
   version "1.0.3"
@@ -330,6 +356,10 @@ esprima@3.x.x, esprima@^3.1.3:
   version "3.1.3"
   resolved "http://sinopia.hugjs.com/esprima/-/esprima-3.1.3.tgz#fdca51cee6133895e3c88d535ce49dbff62a4633"
 
+esprima@^4.0.0:
+  version "4.0.0"
+  resolved "http://sinopia.hugjs.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
+
 estraverse@^4.2.0:
   version "4.2.0"
   resolved "http://sinopia.hugjs.com/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
@@ -342,9 +372,13 @@ extend@3, extend@^3.0.0, extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "http://sinopia.hugjs.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
-extsprintf@1.3.0, extsprintf@^1.2.0:
+extsprintf@1.3.0:
   version "1.3.0"
   resolved "http://sinopia.hugjs.com/extsprintf/-/extsprintf-1.3.0.tgz#96918440e3041a7a414f8c52e3c574eb3c3e1e05"
+
+extsprintf@^1.2.0:
+  version "1.4.0"
+  resolved "http://sinopia.hugjs.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
 eyes@0.1.x:
   version "0.1.8"
@@ -621,6 +655,13 @@ isstream@0.1.x, isstream@~0.1.2:
   version "0.1.2"
   resolved "http://sinopia.hugjs.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+js-yaml@^3.10.0:
+  version "3.10.0"
+  resolved "http://sinopia.hugjs.com/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "http://sinopia.hugjs.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -832,6 +873,10 @@ negotiator@0.6.1:
 netmask@~1.0.4:
   version "1.0.6"
   resolved "http://sinopia.hugjs.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
+
+node-fingerprint@0.0.2:
+  version "0.0.2"
+  resolved "http://sinopia.hugjs.com/node-fingerprint/-/node-fingerprint-0.0.2.tgz#31cbabeb71a67ae7dd5a7dc042e51c3c75868501"
 
 node-uuid@~1.4.7:
   version "1.4.8"
@@ -1190,6 +1235,10 @@ source-map@~0.5.6:
   version "0.5.7"
   resolved "http://sinopia.hugjs.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
+sprintf-js@~1.0.2:
+  version "1.0.3"
+  resolved "http://sinopia.hugjs.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+
 sshpk@^1.7.0:
   version "1.13.1"
   resolved "http://sinopia.hugjs.com/sshpk/-/sshpk-1.13.1.tgz#512df6da6287144316dc4c18fe1cf1d940739be3"
@@ -1290,6 +1339,10 @@ type-is@^1.5.5:
     media-typer "0.3.0"
     mime-types "~2.1.15"
 
+ultron@~1.1.0:
+  version "1.1.1"
+  resolved "http://sinopia.hugjs.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
+
 underscore@~1.7.0:
   version "1.7.0"
   resolved "http://sinopia.hugjs.com/underscore/-/underscore-1.7.0.tgz#6bbaf0877500d36be34ecaa584e0db9fef035209"
@@ -1336,6 +1389,14 @@ winston@^2.3.1:
 wordwrap@~1.0.0:
   version "1.0.0"
   resolved "http://sinopia.hugjs.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+
+ws@^3.3.2:
+  version "3.3.2"
+  resolved "http://sinopia.hugjs.com/ws/-/ws-3.3.2.tgz#96c1d08b3fefda1d5c1e33700d3bfaa9be2d5608"
+  dependencies:
+    async-limiter "~1.0.0"
+    safe-buffer "~5.1.0"
+    ultron "~1.1.0"
 
 xregexp@2.0.0:
   version "2.0.0"

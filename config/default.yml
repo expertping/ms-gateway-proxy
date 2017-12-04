@@ -1,0 +1,13 @@
+server:
+  port: 20004
+reg-server:
+  path: "ws://localhost:20001"
+log:
+    appenders:
+        console:
+            type: console
+    categories: 
+        default: 
+            appenders: 
+                - console
+            level: debug
